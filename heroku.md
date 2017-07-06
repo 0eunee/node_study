@@ -44,9 +44,7 @@ $ git commit -m "init"
 ```
 $ herocu create app이름(명시해주지 않으면 local repository명으로 생성됨)
 ```
-herocu에 프로젝트를 생성한다.
-*나의 경우 app이름을 적었더니 대부분이 heroku에 존재하는 이름이라고 거절(Name is already taken)되었다..^^ 특별하게 써줘야 함...*
-위 과정을 마치면, .git/config파일에 remote "heroku" 내용이 추가된다. 이제 Push를 한다.
+herocu에 프로젝트를 생성한다.<br>*(나의 경우 app이름을 적었더니 대부분이 heroku에 존재하는 이름이라고 거절(Name is already taken)되었다..^^ 특별하게 써줘야 함...*)<br>위 과정을 마치면, .git/config파일에 remote "heroku" 내용이 추가된다. 이제 Push를 한다.
 ```
 $ git push heroku master
 ```
@@ -106,7 +104,7 @@ $ git push heroku master
 2. Deployment method에서 Github을 선택
 3. Connect to GitHub을 눌러 github repository 등록하고 Connect
 4. Automatic Deploys에서 Enable Automatic Deploys 클릭
-5. 이후 GitHub에 push하면 자동으로 HEroku에 deploy됨
+5. 이후 GitHub에 push하면 자동으로 Heroku에 deploy됨
 
 ### 9. Add-on
 로그를 관리할 수 있는 서비스 [Papertrail](https://elements.heroku.com/addons/papertrail) 설치하기
